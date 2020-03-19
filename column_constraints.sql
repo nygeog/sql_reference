@@ -1,0 +1,6 @@
+CREATE TABLE student (
+  id INTEGER PRIMARY KEY,
+  name TEXT UNIQUE,
+  grade INTEGER NOT NULL,
+  age INTEGER DEFAULT 10
+);
